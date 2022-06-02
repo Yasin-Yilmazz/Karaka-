@@ -10,6 +10,7 @@
 /***************! NAVBAR **********************/
 .navbar {
   background-color: #e4d932;
+  position: fixed;
 }
 .navbar .img-container img {
   width: 10rem;
@@ -49,6 +50,12 @@ section#contact i {
 }
 section#contact .fa-whatsapp {
   color: #4dc85a;
+}
+section#contact .fa-phone {
+  color: red;
+}
+section#contact .fa-envelope {
+  color: grey;
 }
 section#contact .textarea {
   opacity: 0.8;
