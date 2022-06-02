@@ -1,0 +1,14 @@
+@import "./base/reset";
+
+@import "./abstracts/mixin", "./abstracts/variables";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");
+
+@import "./pages/home", "./pages/iletisim", "./pages/kurumsal",
+  "./pages/urunlerimiz";
+
+@import "./components/footer", "./components/nav", "./components/responsive";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");

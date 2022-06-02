@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***************! NAVBAR **********************/
+.navbar {
+  background-color: #e4d932;
+}
+.navbar .img-container img {
+  width: 10rem;
+}
+.navbar #navbarTogglerDemo03 .navbar-nav {
+  /* gap: 4rem; */
+}
+.navbar #navbarTogglerDemo03 li a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+}
+.navbar #navbarTogglerDemo03 li a:hover {
+  color: #eee;
+  opacity: 0.6;
+  transition: all 1.3s;
+}
+
+/***************! FOOTER **********************/
+footer {
+  color: #ddd;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/** ------------------- CONTACT --------------------- */
+section#contact i {
+  color: var(--red);
+  font-size: 1.8rem;
+}
+section#contact .fa-whatsapp {
+  color: #4dc85a;
+}
+section#contact .textarea {
+  opacity: 0.8;
+}
+
+/** ------------------- UP-BUTTON --------------------- */
+.up-btn {
+  position: fixed;
+  background-color: red;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: center;
+  padding-top: 0.6rem;
+  font-size: 1.2rem;
+}
+
+.up-btn:hover {
+  color: black;
+  transition: all 2s;
+}
+
+@media screen and (min-width: 1200px) {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 2.8rem;
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 4.8rem;
+    margin-left: 5.9rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

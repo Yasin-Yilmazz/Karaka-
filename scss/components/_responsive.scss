@@ -1,0 +1,20 @@
+@include media-xsm {
+}
+@include media-sm {
+}
+@include media-md {
+}
+
+@include media-xl {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 2.8rem;
+    margin-left: 3rem;
+  }
+}
+
+@include media-xxl {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 4.8rem;
+    margin-left: 5.9rem;
+  }
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***************! NAVBAR **********************/
+.navbar {
+  background-color: #e4d932;
+}
+
+.img-container img {
+  width: 10rem;
+}
+
+#navbarTogglerDemo03 .navbar-nav {
+  padding-left: 4.2rem;
+  /* gap: 4rem; */
+}
+
+.navbar #navbarTogglerDemo03 li a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.navbar #navbarTogglerDemo03 li a:hover {
+  color: black;
+  opacity: 0.6;
+  transition: all 1.3s;
+}
+
+@media screen and (min-width: 1200px) {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 2rem;
+    padding-left: 7.3rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 3rem;
+    padding-left: 15rem;
+  }
+}
+@media screen and (min-width: 1700px) {
+  #navbarTogglerDemo03 .navbar-nav {
+    gap: 4rem;
+    padding-left: 18rem;
+  }
+}
