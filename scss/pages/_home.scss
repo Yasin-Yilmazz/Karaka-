@@ -26,8 +26,19 @@
     }
   }
 }
+/************** CAROUSEL *********************/
 
-/****************! INFO *******************/
+.carousel-indicators button {
+  background-color: red !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
+}
+
+/****************! KATOLOG *******************/
+.img-thumbnail {
+  height: 200px !important;
+}
 
 /***************! FOOTER **********************/
 footer {
