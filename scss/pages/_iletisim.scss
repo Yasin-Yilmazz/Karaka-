@@ -1,13 +1,29 @@
 /** ------------------- CONTACT --------------------- */
 #body {
-  background: url(../../img/teahub.io-lamborghini-car-hd-wallpaper-1561163.jpg);
-  width: 100%;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
+  // background: url(../../img/teahub.io-lamborghini-car-hd-wallpaper-1561163.jpg);
+  // width: 100%;
+  // height: 100%;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  // background-attachment: fixed;
   section#contact {
+    height: 100vh !important;
+    .top-form {
+      z-index: 1;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .map {
+    }
+    iframe {
+      height: 40rem;
+      padding-top: 2rem;
+    }
+    .bilgi-form {
+    }
+
     i {
       color: var(--red);
       font-size: 1.8rem;
